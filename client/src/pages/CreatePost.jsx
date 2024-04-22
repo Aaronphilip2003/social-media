@@ -9,7 +9,7 @@ export default function CreatePost() {
         <h1 className='text-center text-3xl my-7 font-semibold'>Create Post</h1>
         <form className='flex flex-col gap-4'>
             <div className='flex flex-col gap-4 sm:flex-row justify-between '>
-                <TextInput type="text" placeholder='Title' required id="title" className='flex-1'/>
+                <TextInput type="text" placeholder='Title' required id="title" className='lg'/>
                 <Select>
                     <option value="uncategorized">Select a Category</option>
                     <option value="personaldevelopment">Personal Development</option>
