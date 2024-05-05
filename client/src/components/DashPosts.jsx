@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import { Modal } from 'flowbite-react';
 import { HiOutlineExclamationCircle } from 'react-icons/hi';
 import { Button } from 'flowbite-react';
-import { set } from 'mongoose';
 
 export default function DashPost() {
   const { currentUser } = useSelector((state) => state.user);
