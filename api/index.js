@@ -7,7 +7,7 @@ import commentRoutes from "./routes/comment.route.js";
 import cookieParser from 'cookie-parser';
 import path from 'path'
 
-mongoose.connect("mongodb+srv://actspot:actspot2024@mern-blog.m526lr4.mongodb.net/mern-blog?retryWrites=true&w=majority&appName=mern-blog").then(()=>{
+mongoose.connect("mongodb+srv://aaronphilip2003:RzuvjpgKdpukM3L5@cluster0.qmagltk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("Connected to MongoDB");
 }).catch((err)=>{
     console.log(err);
