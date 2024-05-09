@@ -131,11 +131,11 @@ export default function Search() {
               id='category'
             >
                   <option value="uncategorized">Uncategorized</option>
-                  <option value="personaldevelopment">Personal Development</option>
-                  <option value="mindfulnessandmeditation">Mindfulness and Meditation</option>
-                  <option value="positivepsychology">Positive Psychology</option>
-                  <option value="confidencebuilding">Confidence Building</option>
-                  <option value="motivationandinspiration">Motivation and Inspiration</option>
+                  <option value="computerscience">Computer science</option>
+                  <option value="webdevelopment">Web Development</option>
+                  <option value="python">Python</option>
+                  <option value="backend">Backend</option>
+                  <option value="AI">AI</option>
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>

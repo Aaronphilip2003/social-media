@@ -6,19 +6,19 @@ export default function CallToAction() {
     <div className='flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center'>
         <div className='flex-1 justify-center flex flex-col '>
             <h2 className='text-2xl'>
-                Want to Learn More about Personality Development?
+                Want to know more about my work?
             </h2>
             <p className='text-gray-500 my-2'>
-                Checkout my resources on Personality Development
+                Check out my portfolio below!
             </p>
             <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
-                <a href='https://actspot.com/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://nextjs-blog-sand-rho-45.vercel.app/' target='_blank' rel='noopener noreferrer'>
                     Learn More
                 </a>
             </Button>
         </div>
         <div className='p-7 flex-1'>
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguBTXcF987tNm4qIZbyV2J2gBAft_OvT37tR9c2i54g_pznlbaV37aBFgsQ9ezOVC-1sPBexOdhCPuNIGZpZOJrYrgwhJtdVN2j1bYJI9V-uCVph8aKvCjMLMu_gdqN4afZCh9y3PBcdChMbYatunbNIT7kY65uoR5_x_JrJo6B0pKXSUtYCdgyYXchVHA/s2916/personality.jpg" alt="" width='400px'/>
+            <img src="https://bairesdev.mo.cloudinary.net/blog/2022/01/programming-languages-1.jpg?tx=w_1920,q_auto" alt="" width='400px'/>
         </div>
     </div>
   )

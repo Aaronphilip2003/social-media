@@ -89,11 +89,11 @@ export default function CreatePost() {
                 onChange={(e)=>setFormData({...formData,category: e.target.value})}
                 >
                     <option value="uncategorized">Select a Category</option>
-                    <option value="personaldevelopment">Personal Development</option>
-                    <option value="mindfulnessandmeditation">Mindfulness and Meditation</option>
-                    <option value="positivepsychology">Positive Psychology</option>
-                    <option value="confidencebuilding">Confidence Building</option>
-                    <option value="motivationandinspiration">Motivation and Inspiration</option>
+                    <option value="computerscience">Computer science</option>
+                    <option value="webdevelopment">Web Development</option>
+                    <option value="python">Python</option>
+                    <option value="backend">Backend</option>
+                    <option value="AI">AI</option>
                 </Select>
             </div>
             <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
