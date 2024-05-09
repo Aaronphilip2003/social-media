@@ -20,7 +20,7 @@ export default function Home() {
     <div>
       <div className='flex flex-col gap-6 lg:p-28 p-3 max-w-6xl mx-auto'>
         <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog!</h1>
-        <p className='text-gray-500 text-lg'>Honestly I don't know where am I taking this blog, I started this as a way to learn web development and set up a blog for a friend. I'll probably end up writing about a few things computer science and engineering related or just documenting my journey as a computer science student. I have a few things that I would love to discuss about. Feel free to reach out on my mail or drop a comment. Thank you for stopping by!</p>
+        <p className='text-gray-500 text-lg'>Honestly I don't know where am I taking this blog, I started this as a way to learn web development and set up a blog for a friend. I'll probably end up writing about a few things computer science and engineering related or just documenting my journey as a Computer Science enthusiast. I have a few things that I would love to discuss about. Feel free to reach out on my mail or drop a comment. Thank you for stopping by!</p>
       <Link to="/search" className='text-xs sm:text-sm text-teal-500 font-bold hover:underline'>View all Posts</Link>
       </div>
       <div className='p-3 dark:bg-slate-700'>
